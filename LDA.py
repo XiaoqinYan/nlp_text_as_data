@@ -17,6 +17,6 @@ def seg_depart(sentence):
     for word in sentence_depart:
         if word not in stopwords:
             outstr += word
-            outstr += " "
+            outstr += ","
     return outstr
 
